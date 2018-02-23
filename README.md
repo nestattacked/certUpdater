@@ -28,7 +28,7 @@ download source code into path /usr/local/bin, then it should look like /usr/loc
 
 ### Configure certbot's hook
 
-copy updateAliyunCDNCert.sh into /etc/letsencrypt/renewal-hooks/deploy/
+copy updateAliyunCDNCert into /etc/letsencrypt/renewal-hooks/deploy/. Please ensure it's excutable.
 
 ### Log
 
